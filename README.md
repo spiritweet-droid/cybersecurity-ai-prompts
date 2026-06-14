@@ -30,8 +30,8 @@ and professional deliverables ready for tickets, reports, and briefings.
 
 ```mermaid
 flowchart TD
-    A[Security Analyst] -->|Pastes prompt into AI| B(AI Assistant\nClaude or ChatGPT)
-    B --> C{Structured Intake\nQuestions}
+    A[Security Analyst] -->|Pastes prompt into AI| B[AI Assistant]
+    B --> C{Structured Intake}
     C -->|Answers provided| D[Section-by-Section Output]
     D --> E1[Adversary Emulation Plan]
     D --> E2[Threat Actor Profile]
@@ -39,7 +39,7 @@ flowchart TD
     D --> E4[OSINT Intel Report]
     D --> E5[Policy Gap Analysis]
     D --> E6[Malware Analysis Report]
-    E1 & E2 & E3 & E4 & E5 & E6 --> F[Professional Deliverable\nReady to Use]
+    E1 & E2 & E3 & E4 & E5 & E6 --> F[Professional Deliverable]
 ```
 
 ---
